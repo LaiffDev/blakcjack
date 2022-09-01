@@ -1,4 +1,7 @@
-// 2. Use getRandomCard() to set the values of firstCard and secondCard
+let player = {
+    name: "Latiff",
+    chips: 300
+}
 
 let cards = []
 let sum = 0
@@ -8,14 +11,8 @@ let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
-
-
-let player = {
-    name: "Latiff",
-    chips: 300
-}
-
 let playerEl = document.getElementById("player-el")
+
 playerEl.textContent = player.name + ": $" + player.chips
 
 
